@@ -1,0 +1,42 @@
+.bg{
+    background-image: url(./../../assets/imges/landing-page/Frame.png);
+  background-position-x: right;
+  background-size: 40%;
+    background-repeat: no-repeat;
+}
+
+.carImgclass{
+animation-name: carImg;
+animation-duration: 2s;
+}
+@keyframes carImg {
+    0%{
+        width: 20%;
+    }
+    100%{
+    width: 45%;
+    }
+}
+
+
+@media screen and (max-width: 1023px) {
+    .bg{
+        background-image: url(./../../assets/imges/landing-page/Frame.png);
+        background-position-x: right;
+        background-size: 40%;
+        background-repeat: no-repeat;
+    }
+    .carImgclass{
+        animation-name: carImg;
+        animation-duration: 2s;
+        }
+        @keyframes carImg {
+            0%{
+                width: 20%;
+            }
+            100%{
+            width: 75%;
+            }
+        }
+    
+}
